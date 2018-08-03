@@ -2,6 +2,9 @@ package science.mengxin.java.btc.scroogecoin;
 
 import java.util.Arrays;
 
+/**
+ *  unspent transaction output
+ */
 public class UTXO implements Comparable<UTXO> {
 
     /** Hash of the transaction from which this UTXO originates */
